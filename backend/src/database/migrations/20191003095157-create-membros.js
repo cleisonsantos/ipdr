@@ -59,11 +59,21 @@ module.exports = {
      pai_vivo: {
        allowNull: false,
        type: DataTypes.STRING
-     }
+     },
+
+     created_at: {
+       type: Sequelize.DATE,
+       allowNull: false,
+     },
+     updated_at: {
+      type: Sequelize.DATE,
+      allowNull: false,
+    }
    })
   },
 
   down: (queryInterface, Sequelize) => {
+    return queryInterface.dropTable('Membros');
     /*
       Add reverting commands here.
       Return a promise to correctly handle asynchronicity.
