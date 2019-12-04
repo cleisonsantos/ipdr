@@ -60,6 +60,74 @@ module.exports = {
        allowNull: false,
        type: DataTypes.STRING
      },
+     pai_evangelico: {
+       allowNull: false,
+       type: DataTypes.STRING
+     },
+     pai_IPDR: {
+       allowNull: false,
+       type: DataTypes.STRING
+     },
+     nome_mae: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    mae_viva: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    mae_evangelica: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    mae_IPDR: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    tel_cel: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    tel_res: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    tel_com: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    rua: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    n: {
+      allowNull: false,
+      type: DataTypes.INTERGER
+    },
+    bairro: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    complemento: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    CEP: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    cidade: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    UF: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    estado_civil: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
 
      created_at: {
        type: Sequelize.DATE,
